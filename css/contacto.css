@@ -1,0 +1,58 @@
+body{
+	font-family: nunito, cursive;
+	background:#EEEEEE;
+}
+
+.contenedor-formulario form{
+	width:36em;
+	margin:auto;
+	padding:1.5em 6em 2em 6em;
+	display:flex;
+	flex-direction: column;
+	border-radius: 5px;
+	margin-top:2em;
+	margin-bottom:3em;
+	color:grey;
+	background: white;
+	-webkit-box-shadow: 1px 4px 18px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 18px -4px rgba(0,0,0,0.75);
+box-shadow: 1px 4px 18px -4px rgba(0,0,0,0.75);
+}
+
+.contenedor-formulario form input{
+	padding:10px;
+	border-bottom: 1px solid grey;
+	color:grey;
+}
+
+.contenedor-formulario form textarea{
+	margin-top:1em;
+	border:1px solid gray;
+	border-radius: 5px;
+	padding:10px;
+	font-size:14px;
+	color:grey;
+}
+
+.contenedor-formulario form label{
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.btn-enviar-form{
+	width:8em!important;
+	padding:10px!important;
+	margin:auto;
+	background: grey;
+	margin-top:2em;
+	color:white!important;
+	font-size: 14px;
+}
+
+@media (max-width:550px){
+	.contenedor-formulario form{
+		width:95%;
+		margin:auto;
+		padding:1.5em 3em 2em 3em;
+		margin-bottom:1em;
+	}
+}
